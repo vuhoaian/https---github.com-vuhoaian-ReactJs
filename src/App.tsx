@@ -13,6 +13,7 @@ import Home from './layout/home';
 import Details from './components/detail';
 import Templatedemo from './components/demo';
 import Products from './components/admin/products';
+import AddProduct from './components/admin/Addproduct';
 
 
 function App() {
@@ -28,7 +29,9 @@ function App() {
    </Route>
    <Route path='/dashboard' Component={Dashbroard}>
     <Route path='product' Component={Products}/>
+    <Route path='addproduct' Component={AddProduct} />
    </Route>
+   
  </Routes>
 
   );
