@@ -1,39 +1,92 @@
 {
   "products": [
     {
-      "id": "a81e",
-      "name": "sản phẩm 1",
-      "image": "Link ảnh 1",
-      "price": "100000"
-    },
-    {
-      "id": "GAKXY9p"
-    },
-    {
-      "id": "n6HtSIb"
-    },
-    {
-      "id": "qcvtyk6"
-    },
-    {
-      "name": "hoaiaiah",
-      "image": "hoiaaa",
-      "price": 12209988,
-      "id": "GOF4Fut"
-    },
-    {
-      "name": "hoaiai",
-      "image": "120000",
-      "price": "1209000",
-      "id": "BdRjqcI"
-    },
-    {
-      "id": "e9ee",
-      "name": "anhhh",
-      "image": "ahjuuu",
-      "description": "hoabggggggggggggggggggggggggggggggggggggggggg",
+      "id": "32f6",
+      "name": "laptop gaming",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.XzbjH1QwBRtfGqg_Uf10hgHaGj&pid=Api&P=0&h=180",
+      "description": "sanr phamr toots yhauggfsvasugasubajsbua",
       "price": "1200000",
       "category": "Keyboard"
+    },
+    {
+      "id": "2e2e",
+      "name": "laptop gaming",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.XzbjH1QwBRtfGqg_Uf10hgHaGj&pid=Api&P=0&h=180",
+      "description": "sanr phamr toots yhauggfsvasugasubajsbua",
+      "price": "1200000",
+      "category": "Keyboard"
+    },
+    {
+      "id": "003d",
+      "name": "laptop gaming11",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.a3G1CzQEdd8HHmhPC1rsPgHaGE&pid=Api&P=0&h=180",
+      "description": "sanr phamr toots yhauggfsvasugasubajsbua",
+      "price": "13020000",
+      "category": "Mouse"
+    },
+    {
+      "id": "23e4",
+      "name": "iphone12",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.AGy2OUk-ox8DxAmRRRa4rQHaHa&pid=Api&P=0&h=180",
+      "description": "hiunhysssjsahusnxshudksndisudskdsudkashdsandjasbdnaskbdjasbd",
+      "price": "1200930",
+      "category": "category2"
+    },
+    {
+      "id": "08b1",
+      "name": "iphone12",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.AGy2OUk-ox8DxAmRRRa4rQHaHa&pid=Api&P=0&h=180",
+      "description": "hiunhysssjsahusnxshudksndisudskdsudkashdsandjasbdnaskbdjasbd",
+      "price": "1200930",
+      "category": "category2"
+    },
+    {
+      "id": "0d2a",
+      "name": "iphone12",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.AGy2OUk-ox8DxAmRRRa4rQHaHa&pid=Api&P=0&h=180",
+      "description": "hiunhysssjsahusnxshudksndisudskdsudkashdsandjasbdnaskbdjasbd",
+      "price": "1200930",
+      "category": "category2"
+    },
+    {
+      "id": "68ed",
+      "name": "iphone21",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.KFWWB2pEtsWtwwCiFFQxrQHaKm&pid=Api&P=0&h=180",
+      "description": "gsussssbsnjsagsbjass",
+      "price": "1203933",
+      "category": ""
+    },
+    {
+      "id": "aa0c",
+      "name": "iphone21",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.KFWWB2pEtsWtwwCiFFQxrQHaKm&pid=Api&P=0&h=180",
+      "description": "gsussssbsnjsagsbjass",
+      "price": "1203933",
+      "category": ""
+    },
+    {
+      "id": "9bdc",
+      "name": "may tinh",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.6UyZw9rHIQKWzMOBsv_jpQHaHa&pid=Api&P=0&h=180",
+      "description": "sanr pham chast luon shaihsuassaa",
+      "price": "1209000",
+      "category": "Mouse"
+    },
+    {
+      "id": "93c8",
+      "name": "iphone1112",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.41PIYYJF0fXJzTJ5X2DzswHaHa&pid=Api&P=0&h=180",
+      "description": "hoaigoiaiishssjsjahshsbcksavdyjasbfashvfyuasvfkasg fdgfgsdyfgusdfgdsbhfsdf",
+      "price": "230292922",
+      "category": "Mouse"
+    },
+    {
+      "id": "586d",
+      "name": "iphone10",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.rwp8ZA0Uygd9U6QDsBSwrwHaHa&pid=Api&P=0&h=180",
+      "description": "gaiaybsfaehjdbwafdhjbawsfdhvasdfhjs",
+      "price": "120093933",
+      "category": "Mouse"
     }
   ]
 }
