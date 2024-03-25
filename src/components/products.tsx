@@ -135,7 +135,7 @@ const buttonClickprev =()=>{
        </div>
     </div>
     <div className="container mx-auto w-[1400px]">   
-    <h1 className="text-4xl font-bold mb-[10px]">Featured Products</h1>
+    <h1 className="text-4xl font-bold mb-[10px]">Popular Products</h1>
    <div className="flex justify-between">
    <div>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
