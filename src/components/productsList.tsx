@@ -8,22 +8,14 @@ const AddProductForm = () => {
     const [description, setDescription] = useState('');
     const [price, setPrice] = useState('');
     const [category, setCategory] = useState('');
+    const [message,setMessage ] = useState('');
 
     useEffect(() => {
-      fetch('http://localhost:3001/products')
+      fetch('http://localhost:3000/products')
       .then(response => response.json())
       .then(data => setProducts(data));
-        fetchProducts();
+        
     }, []);
-
-    const fetchProducts = async () => {
-        try {
-            const response = await axios.get('http://localhost:3000/products');
-            setProducts(response.data);
-        } catch (error) {
-            console.error('Error fetching products:', error);
-        }
-    };
 
     const handleSubmit = (e:any) => {
       e.preventDefault();
@@ -40,16 +32,25 @@ const AddProductForm = () => {
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(newProduct)
+        body: JSON.stringify({ name, image, price,description,category })
       })
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .catch(error => console.error('Error:', error));
-    };
+      .then(response => response.json())
+      .then(data => {
+        setMessage('Thêm mới thành công');
+        // Đặt lại giá trị của các trường nhập liệu sau khi thêm mới thành công
+        // setName('');
+        // setImage('');
+        // setPrice(0);
+      })
+      .catch(error => {
+        setMessage('Lỗi: ' + error.message);
+      });
+    }
 
     return (
         <div>
             <h2>Add New Product</h2>
+            {message && <p>{message}</p>}
             <form onSubmit={handleSubmit}>
                 <label>
                     Product Name:
@@ -74,8 +75,8 @@ const AddProductForm = () => {
                 <label>
                     Category:
                     <select value={category} onChange={(e) => setCategory(e.target.value)}>
-                        <option value="Keyboard">Keyboard</option>
-                        <option value="Mouse">Mouse</option>
+                        <option value="Laptop">Laptop</option>
+                        <option value="Iphone">Iphone</option>
                        
                     </select>
                 </label>

@@ -1,6 +1,7 @@
 import React from "react";
 import Silde from "../components/silde";
 import Productlist from "../components/products";
+import About from "../components/about";
 
 type Props = {
     
@@ -8,9 +9,9 @@ type Props = {
 const Home = (props:Props)=>{
     return (
        <>
-       fiuaia
-       {/* <Silde/>
-       <Productlist/> */}
+       <About/>
+       <Silde/>
+       <Productlist/>
        </>
     )
 }
