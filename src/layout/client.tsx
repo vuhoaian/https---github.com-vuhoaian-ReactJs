@@ -21,7 +21,7 @@ const Clienta = () => {
   const [state,setState] = useReducer(reducer,(<></>));
   return (
     <CountCT.Provider value={[state,setState]}>
-    <Header title='LOGO'/>
+    <Header/>
         <Outlet/>
     <Footer/>
     </CountCT.Provider>
